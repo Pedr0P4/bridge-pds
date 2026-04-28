@@ -1,6 +1,6 @@
-package Controllers;
+package src.Controllers;
 
-import Devices.Device;
+import src.Devices.Device;
 
 public class AdvancedRemoteControl extends RemoteControl {
     public AdvancedRemoteControl(Device device) {

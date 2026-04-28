@@ -1,8 +1,8 @@
-package Devices;
+package src.Devices;
 
-public class Radio implements Device {
+public class TV implements Device {
     private boolean on = false;
-    private int volume = 10;
+    private int volume = 30;
 
     @Override
     public boolean isEnabled() {
@@ -12,13 +12,13 @@ public class Radio implements Device {
     @Override
     public void enable() {
         on = true;
-        System.out.println("Rádio: Ligado");
+        System.out.println("TV: Ligada");
     }
 
     @Override
     public void disable() {
         on = false;
-        System.out.println("Rádio: Desligado");
+        System.out.println("TV: Desligada");
     }
 
     @Override
@@ -31,6 +31,6 @@ public class Radio implements Device {
         if (volume > 100) this.volume = 100;
         else if (volume < 0) this.volume = 0;
         else this.volume = volume;
-        System.out.println("Rádio: Volume alterado para " + this.volume + "%");
+        System.out.println("TV: Volume alterado para " + this.volume + "%");
     }
 }

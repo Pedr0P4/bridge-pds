@@ -1,6 +1,6 @@
-package Controllers;
+package src.Controllers;
 
-import Devices.Device;
+import src.Devices.Device;
 
 public class RemoteControl {
 
@@ -19,12 +19,12 @@ public class RemoteControl {
         }
     }
 
-    public void VolumeDown() {
+    public void volumeDown() {
         System.out.println("Controle: Diminuindo o volume.");
         device.setVolume(device.getVolume() - 5);
     }
 
-    public void VolumeUp() {
+    public void volumeUp() {
         System.out.println("Controle: Diminuindo o volume.");
         device.setVolume(device.getVolume() + 5);
     }
