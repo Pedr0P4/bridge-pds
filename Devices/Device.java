@@ -1,3 +1,5 @@
+package Devices;
+
 public interface Device {
     boolean isEnabled();
     void enable();

@@ -1,3 +1,7 @@
+package Controllers;
+
+import Devices.Device;
+
 public class RemoteControl {
 
     protected Device device;
