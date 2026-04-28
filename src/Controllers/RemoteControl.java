@@ -1,6 +1,6 @@
-package src.Controllers;
+package Controllers;
 
-import src.Devices.Device;
+import Devices.Device;
 
 public class RemoteControl {
 

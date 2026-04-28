@@ -1,4 +1,4 @@
-package src.Devices;
+package Devices;
 
 public interface Device {
     boolean isEnabled();

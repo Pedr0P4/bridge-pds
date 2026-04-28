@@ -2,13 +2,14 @@
 JAVAC = javac
 JAVA = java
 OUT = out
-SRC = Main.java src/Controllers/*.java src/Devices/*.java
+SOURCE_PATH = src
+SRC = src/Main.java src/Controllers/*.java src/Devices/*.java
 
 all: clean build run
 
 build:
 	@mkdir -p $(OUT)
-	$(JAVAC) -d $(OUT) $(SRC)
+	$(JAVAC) -sourcepath $(SOURCE_PATH) -d $(OUT) $(SRC)
 
 run:
 	@$(JAVA) -cp $(OUT) Main

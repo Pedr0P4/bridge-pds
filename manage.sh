@@ -13,7 +13,7 @@ case "$1" in
 
         mkdir -p $OUTPUT_DIR
 
-        javac -d $OUTPUT_DIR \
+        javac -sourcepath $SOURCE_DIR -d $OUTPUT_DIR \
               $SOURCE_DIR/Main.java \
               $SOURCE_DIR/Controllers/*.java \
               $SOURCE_DIR/Devices/*.java

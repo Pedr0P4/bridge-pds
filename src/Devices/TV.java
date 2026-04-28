@@ -1,4 +1,4 @@
-package src.Devices;
+package Devices;
 
 public class TV implements Device {
     private boolean on = false;

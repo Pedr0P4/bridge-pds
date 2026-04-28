@@ -1,5 +1,5 @@
-import src.Devices.*;
-import src.Controllers.*;
+import Devices.*;
+import Controllers.*;
 
 public class Main {
     public static void main(String[] args) {
